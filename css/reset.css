@@ -1,0 +1,174 @@
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+    body {
+        line-height:1;
+    }
+    img{
+        max-width: 100%;
+    }
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section { 
+        display:block;
+    }
+  nav {
+  position: relative;
+  top: 0.5em;
+  margin: 0 auto;
+}
+nav ul {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+nav ul li a{
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1.6em;
+  padding: 0 0.6em;
+  margin: 0 0;
+  display: inline-block;
+  list-style-type: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+nav ul li:hover a{
+  color: #FFF;
+}
+nav ul :nth-child(1) a{
+  color: #bbe006;
+}
+nav ul :nth-child(1):hover {
+  background-color: #bbe006;
+}
+nav ul :nth-child(2) {
+  color: #11d452;
+}
+nav ul :nth-child(2):hover a{
+  background-color: #11d452;
+}
+nav ul :nth-child(3) a{
+  color: #11b4d4;
+}
+nav ul :nth-child(3):hover {
+  background-color: #11b4d4;
+}
+nav ul :nth-child(4) {
+  color: #308ce8;
+}
+nav ul :nth-child(4):hover {
+  background-color: #308ce8;
+}
+nav ul :nth-child(5) a{
+  color: #516dfb;
+}
+nav ul :nth-child(5):hover {
+  background-color: #516dfb;
+}
+nav ul :nth-child(6) {
+  color: #8c5af2;
+}
+nav ul :nth-child(6):hover {
+  background-color: #8c5af2;
+}
+nav ul :nth-child(7) a{
+  color: #cd2bee;
+}
+nav ul :nth-child(7):hover {
+  background-color: #cd2bee;
+}
+nav ul :nth-child(8) {
+  color: #e619a1;
+}
+nav ul :nth-child(8):hover {
+  background-color: #e619a1;
+}
+nav ul :nth-child(9) a{
+  color:  #FF6600;
+}
+nav ul :nth-child(9):hover {
+  background-color: #FF6600;
+}
+
+nav .indicator {
+  pointer-events: none;
+  position: fixed;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+    blockquote, q {
+        quotes:none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+        color: #ffffff;
+    }
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000; 
+        font-style:italic;
+        font-weight:bold;
+    }
+    del {
+        text-decoration: line-through;
+    }
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;   
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+    input, select {
+        vertical-align:middle;
+    }
